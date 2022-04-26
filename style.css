@@ -1,0 +1,213 @@
+* {
+    background-color: #062c32;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    font-family: 'Cinzel', serif;
+    background-color: goldenrod;
+    color: goldenrod;
+    height: 40px;
+    font-size: 25px;
+}
+
+.cabecalho_titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    color: goldenrod;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.artigo_titulo {
+    color: #f4dbd8;
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.artigo_texto {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.loja_titulo {
+    color: goldenrod;
+    margin-top: 50px;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    max-width: 320px;
+    min-width: none;
+}
+
+main img:hover {
+    max-width: 330px;
+}
+
+.decks {
+    color: goldenrod;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.loja_decks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+  
+.loja_decks > div {
+    text-align: center;
+}
+
+button {
+    height: 20px;
+    width: 100px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+}
+
+footer {
+
+    height: 100px;
+}
+
+footer h1 {
+    background-color: #1f4846;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+ footer p {
+     color: white;
+     display: flex;
+     justify-content: center;
+ }
+
+ footer li {
+     display: flex;
+     justify-content: center;
+ }
+
+ @media screen and (min-width: 900px) {
+    nav {
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .cabecalho_titulo {
+        font-size: 100px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .artigo_titulo {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    
+    .artigo_texto {
+        font-size: 40px;
+        padding: 50px;
+    }
+    
+    .loja_titulo {
+        font-size: 70px;
+        margin-top: 50px;
+    }
+    
+    main img {
+        max-width: 700px;
+        min-width: 700px;
+    }
+    
+    main img:hover {
+        max-width: 800px;
+        min-width: 800px;
+    }
+    
+    .decks {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    
+    .loja_decks {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+      
+    .loja_decks > div {
+        text-align: center;
+    }
+    
+    button {
+        font-size: 30px;
+        height: 40px;
+        width: 200px;
+        border: none;
+        background-color: goldenrod;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    button:hover {
+        height: 50px;
+        width: 210px;
+        background-color: #1f4846;
+        cursor: pointer;
+    }
+    
+    footer {
+        height: 100px;
+    }
+    
+    footer h1 {
+        font-size: 50px;
+        background-color: #1f4846;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+     footer p {
+         font-size: 45px;
+         color: white;
+         display: flex;
+         justify-content: center;
+     }
+    
+     footer li {
+         font-size: 45px;
+         display: flex;
+         justify-content: center;
+     }   
+ }
